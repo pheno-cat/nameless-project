@@ -1,13 +1,21 @@
+:root {
+  --box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
 body {
-  font-family: arial, sans-serif;
+  font-family: "Montserrat", sans-serif;
+  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
 }
 
 h1 {
-  color: #7c7c7c;
-  font-size: 24px;
+  color: #fa709a;
+  font-size: 70px;
   font-weight: 100;
   line-height: 28px;
   margin: 0;
+  font-family: "Kristi", cursive;
+  margin-bottom: 30px;
+  margin-top: 50px;
 }
 
 ul {
@@ -16,20 +24,23 @@ ul {
 }
 
 li {
-  color: #7c7c7c;
+  color: #fb8f7f;
   font-size: 16px;
   font-weight: 100;
   height: 19px;
   line-height: 1;
   list-style: none;
+  font-weight: bolder;
 }
 
 .weather-app {
-  border: 1px solid #dadde1;
-  padding: 15px;
+  border: 1px solid #fa709a;
+  padding: 50px;
   margin: 20px auto;
   border-radius: 10px;
   max-width: 600px;
+  background-color: #fff;
+  box-shadow: var(--box-shadow);
 }
 
 .weather-icon {
@@ -52,4 +63,37 @@ li {
 
 .search-form {
   margin-bottom: 20px;
+}
+
+.search-btn {
+  background: #fa709a;
+  color: #fff;
+  box-shadow: var(--box-shadow);
+  transition: all ease-in-out 200ms;
+  border: 1px solid #fa709a;
+}
+
+.search-btn:hover {
+  background: #fff;
+  color: #fa709a;
+  border: 1px solid #fa709a;
+}
+
+.sub-btn {
+  background: #fb8f7f;
+  color: #fff;
+  box-shadow: var(--box-shadow);
+  transition: all ease-in-out 200ms;
+  border: 1px solid #fb8f7f;
+}
+
+.sub-btn:hover {
+  background: #fff;
+  color: #fb8f7f;
+  border: 1px solid #fb8f7f;
+}
+
+#temperature {
+  font-family: "Kristi", cursive;
+  font-size: 100px;
 }
