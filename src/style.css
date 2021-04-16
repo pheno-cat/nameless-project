@@ -8,9 +8,14 @@
   --secondary-color: #fb8f7f;
 }
 
+html {
+  min-height: 100%;
+}
+
 body {
   font-family: var(--secondary-font);
-  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+  background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 120%);
+  /* background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%); */
 }
 
 h1 {
@@ -89,6 +94,8 @@ li {
   border-bottom: var(--border-3px);
   padding: 30px;
   border-radius: 5px;
+
+  box-shadow: var(--box-shadow);
 }
 
 .search-btn {
