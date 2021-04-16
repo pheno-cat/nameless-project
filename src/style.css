@@ -101,7 +101,6 @@ li {
 .search-btn {
   background: var(--primary-color);
   color: #fff;
-  box-shadow: var(--box-shadow);
   transition: all ease-in-out 200ms;
   border: var(--border-1px);
   font-weight: bolder;
@@ -116,7 +115,6 @@ li {
 .sub-btn {
   background: var(--secondary-color);
   color: #fff;
-  box-shadow: var(--box-shadow);
   transition: all ease-in-out 200ms;
   border: 1px solid #fb8f7f;
   font-weight: bolder;
