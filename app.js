@@ -40,9 +40,9 @@ function convertToCelsius(event) {
 }
 
 // Feature #1
-let dateElement = document.querySelector("#date");
-let currentTime = new Date();
-dateElement.innerHTML = formatDate(currentTime);
+// let dateElement = document.querySelector("#date");
+// let currentTime = new Date();
+// dateElement.innerHTML = formatDate(currentTime);
 
 // Feature #2
 let searchForm = document.querySelector("#search-form");
